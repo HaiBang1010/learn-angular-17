@@ -1,0 +1,8 @@
+<div id="two-way-1">
+  <app-sizer [(size)]="fontSizePx"></app-sizer>
+  <div [style.font-size.px]="fontSizePx">Resizable Text</div>
+  <label for="font-size"
+    >FontSize (px): <input id="font-size" [(ngModel)]="fontSizePx"
+  /></label>
+</div>
+<br />S

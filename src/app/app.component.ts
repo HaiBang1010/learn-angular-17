@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { VersionParentComponent } from './components/version-parent.component';
 import { ParentComponent } from './components/parent/parent.component';
+import { TowWayBindingComponent } from './components/tow-way-binding/tow-way-binding.component';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -15,6 +16,7 @@ import { ParentComponent } from './components/parent/parent.component';
     VoteTakerComponent,
     CountdownLocalVarParentComponent,
     MissionControlComponent,
+    TowWayBindingComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
